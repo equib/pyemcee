@@ -13,7 +13,7 @@ except ImportError:
 
 #import pyemcee
 
-with codecs.open('README.rst', 'r', 'utf-8') as fd:
+with codecs.open('README.md', 'r', 'utf-8') as fd:
     setup(name='pyemcee',
           version="0.2.6",
           description = 'pyemcee: Python implementation of the affine-invariant MCMC Hammer',
